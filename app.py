@@ -96,7 +96,7 @@ def process_csv(file):
     # Define the order of columns to keep
     columns_to_keep = [
         'patientname', 'mrn', 'DateofBirth', 'OrderDate', 'Time', 'RegimenName',
-        'sComponentName_1', 'orderedamount', 'orderedunits', 'LastDoseDate', 
+        'sComponentName_1', 'orderedamount', 'orderedunits', 'LastDoseDate', 'NextDoseDate',
         'LastDose', 'CrCl', 'CREAT_Result', 'WeekSinceLastDose'
     ]
 
